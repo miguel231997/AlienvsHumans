@@ -16,4 +16,5 @@ import static org.junit.jupiter.api.Assertions.*;
             assertEquals(100, Goku.getHealth());
             assertEquals("Goku", Goku.getName());
         }
+
 }

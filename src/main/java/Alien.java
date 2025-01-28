@@ -19,8 +19,17 @@ public class Alien extends Player{
         System.out.println(name + " regenerates " + amount + " health. Total health: " + health);
     }
 
-    public void mutate() {
-        System.out.println(name + " mutates into a stronger form!");
+    public void mutate(int damage) {
+        this.health -= damage * 2;
+        System.out.println(name + " mutates into a stronger form and deals double damage");
         // Implement mutation logic here (e.g., increasing health or abilities)
+    }
+
+    public String specialAbility() {
+        return specialAbility;
+    }
+
+    public String getRace() {
+        return race;
     }
 }

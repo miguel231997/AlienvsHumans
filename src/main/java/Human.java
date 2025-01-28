@@ -25,4 +25,12 @@ public class Human extends Player{
     public void eatFood(String food) {
         System.out.println(name + " eats " + food + " and gains a buff.");
     }
+
+    public int getArmor() {
+        return armor;
+    }
+
+    public String specialAbility() {
+        return specialSkill;
+    }
 }
