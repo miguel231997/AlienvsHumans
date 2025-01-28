@@ -16,4 +16,12 @@ public abstract class Player {
     }
 
     public abstract void useAbility();
+
+    public int getHealth() {
+        return health;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
